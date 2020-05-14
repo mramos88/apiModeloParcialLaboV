@@ -12,15 +12,15 @@ Si nodejs está instalado en nuestra maquina, simplemente debemos ejecutar:
 node index.js
 ```
 
-## Utilizando Docker
+### Utilizando Docker
 
-### Buildear imagen
+#### Buildear imagen
 
 ```sh
 sudo docker build . -t local/utn-lab5-modelo-parcial-1:latest
 ```
 
-## Utilizando docker-compose
+### Utilizando docker-compose
 
 El proyecto puede ser ejecutado utilizando [docker-compose](https://docs.docker.com/compose/)
 a partir de la imagen Docker buildeada anteriormente.
