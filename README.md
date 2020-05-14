@@ -2,7 +2,17 @@
 
 API modelo para practicar previo al primer parcial
 
-## Ejecutar utilizando Docker
+## Ejecutar
+
+### Localmente
+
+Si nodejs está instalado en nuestra maquina, simplemente debemos ejecutar:
+
+```sh
+node index.js
+```
+
+## Utilizando Docker
 
 ### Buildear imagen
 
@@ -10,9 +20,10 @@ API modelo para practicar previo al primer parcial
 sudo docker build . -t local/utn-lab5-modelo-parcial-1:latest
 ```
 
-### Ejecutar con docker-compose
+## Utilizando docker-compose
 
 El proyecto puede ser ejecutado utilizando [docker-compose](https://docs.docker.com/compose/)
+a partir de la imagen Docker buildeada anteriormente.
 
 ```sh
 # Up
