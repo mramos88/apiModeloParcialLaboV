@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  server:
+    image: "local/utn-lab5-modelo-parcial-1:latest"
+    restart: "always"
+    ports:
+      - "3000:3000"
